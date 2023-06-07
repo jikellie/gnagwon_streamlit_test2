@@ -54,6 +54,7 @@ def search(query, n=10):
         85: ['festival'],
         80: ['hotel', 'pension', 'resort'],
         79: ['mall', 'shopping', 'mart'],
+        77: ['station'],
         # Add more here if needed
     }
 
