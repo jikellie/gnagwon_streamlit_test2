@@ -97,7 +97,7 @@ vectorizer = TfidfVectorizer()
 tfidf_matrix = vectorizer.fit_transform(df['tags'])
 
 # Create a search bar at the top of the page
-st.title("Gyeongi-do Travel Search")
+st.title("Gangwon-do Travel Search")
 query = st.text_input("Enter your query:")
 
 # When the user enters a query, perform the search and display the results
